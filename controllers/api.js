@@ -25,6 +25,14 @@ exports.getApi = (req, res) => {
   });
 };
 
+
+exports.getTags = (req, res) => {
+  res.render('tags', {
+    title: 'Tags'
+  });
+};
+
+
 /**
  * GET /api/foursquare
  * Foursquare API example.
